@@ -5,42 +5,38 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgba(82,33,42,1);
+    background-color: rgba(82, 33, 42, 1);
 }
 
-.title {
-display: flex;
-flex-direction: row;
-font-size: 87px;
-align-items: center;
-color: rgb(255, 255, 255);
-justify-content: space-between;
-}
 .titlecontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .titleimg {
-    width: 300px;
-    height: 110px;
+    width: 400px;
+    height: 150px;
     margin-right: 2rem;
 }
+
 .card {
     width: 26%;
     height: 45vh;
-    background-color:rgba(253, 68, 86, 1);
+    background-color: rgba(253, 68, 86, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2.5rem 0;
+    box-shadow: 8px 8px 8px rgba(188, 56, 68, 1);
 }
 
 .card-img {
     width: 100%;
     padding: 1rem;
-    background-color: rgba(253,68,86,1);
+    background-color: rgba(253, 68, 86, 1);
 }
 
 .card-title {
@@ -49,7 +45,7 @@ justify-content: space-between;
     justify-content: space-around;
     font-family: 'Bebas Neue',
         sans-serif;
-    background-color: rgba(253,68,86,1);
+    background-color: rgba(253, 68, 86, 1);
 }
 
 .card-caption {
@@ -59,14 +55,14 @@ justify-content: space-between;
     justify-content: space-around;
     font-family: 'Bebas Neue',
         sans-serif;
-    background-color: rgba(253,68,86,1);
+    background-color: rgba(253, 68, 86, 1);
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
-    background-color: rgba(82, 33, 42, 1) ;
+    background-color: rgba(82, 33, 42, 1);
     margin: 1rem auto;
     justify-content: space-around;
 }
@@ -92,6 +88,7 @@ justify-content: space-between;
 .Valorant-5-rgba {
     color: rgba(0, 0, 0, 1);
 }
+
 /* font families */
 font-family: 'Bebas Neue',
 sans-serif;

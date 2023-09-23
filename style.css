@@ -1,12 +1,18 @@
 body,
 html,
 * {
-    font-size: 25px;
+    font-size: 62.5%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: rgba(82,33,42,1);
 }
 
+.titlecontainer {
+display: flex;
+flex-direction: row;
+font-size: 30px;
+}
 .card {
     width: 26%;
     height: 50vh;
@@ -23,16 +29,22 @@ html,
 }
 
 .card-title {
-    font-size: 1.8rem;
+    font-size: 4.5rem;
     margin: 1rem 0;
-    margin-bottom: 7px;
+    justify-content: space-around;
+    font-family: 'Bebas Neue',
+        sans-serif;
+    background-color: rgba(253,68,86,1);
 }
 
 .card-caption {
-    font-size: 80rem 0;
+    font-size: 2.5rem;
     color: rgba(0, 0, 0, 1);
-    margin:0.8rem auto;
+    margin: 0.8rem auto;
     justify-content: space-around;
+    font-family: 'Bebas Neue',
+        sans-serif;
+    background-color: rgba(253,68,86,1);
 }
 
 .container {
@@ -43,17 +55,30 @@ html,
     margin: 1rem auto;
     justify-content: space-around;
 }
-.webtitle{
-    text-align: center;
-    font-size: 80px;
-    justify-content: space-around;
-    margin: 2.5rem 0;
-}
 
 
 /* Color Theme Swatches in RGBA */
-.Valorant-1-rgba { color: rgba(253, 68, 86, 1); }
-.Valorant-2-rgba { color: rgba(188, 56, 68, 1); }
-.Valorant-3-rgba { color: rgba(82, 33, 42, 1); }
-.Valorant-4-rgba { color: rgba(255, 251, 244, 1); }
-.Valorant-5-rgba { color: rgba(0, 0, 0, 1); }
+.Valorant-1-rgba {
+    color: rgba(253, 68, 86, 1);
+}
+
+.Valorant-2-rgba {
+    color: rgba(188, 56, 68, 1);
+}
+
+.Valorant-3-rgba {
+    color: rgba(82, 33, 42, 1);
+}
+
+.Valorant-4-rgba {
+    color: rgba(255, 251, 244, 1);
+}
+
+.Valorant-5-rgba {
+    color: rgba(0, 0, 0, 1);
+}
+/* font families */
+font-family: 'Bebas Neue',
+sans-serif;
+font-family: 'Black Ops One',
+cursive;

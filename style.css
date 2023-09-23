@@ -11,7 +11,7 @@ html,
 .title {
 display: flex;
 flex-direction: row;
-font-size: 65px;
+font-size: 87px;
 align-items: center;
 color: rgb(255, 255, 255);
 justify-content: space-between;
@@ -23,7 +23,9 @@ justify-content: space-between;
 }
 
 .titleimg {
-    width: ;
+    width: 300px;
+    height: 110px;
+    margin-right: 2rem;
 }
 .card {
     width: 26%;
